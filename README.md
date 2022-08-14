@@ -1,18 +1,48 @@
-## Live Site [Preview](https://hr-meheraj-note-keeper.web.app/)
+# Note-Keeper(Full Stack App)
 
-## Full stack Application
+# Project Name:
+Note Keeper Application
 
-Live Preivew :<a href='https://hr-meheraj-note-keeper.web.app/' target="_blank"> https://hr-meheraj-note-keeper.web.app/</a>
+# Website:
+https://note-keep-er.netlify.app/
 
-Server Side Source Code :<a href='https://github.com/hr-meheraj/note-keeper-server'>  https://github.com/hr-meheraj/note-keeper-server</a>
 
-----------------------------------------------
+### Server Side Link:
+https://whispering-ridge-65020.herokuapp.com/
+https://whispering-ridge-65020.herokuapp.com/note
 
-- Technology used in this applicaiton
-  - Tailwind CSS
-  - ReactJs
-  - ExpressJs
-  - MongoDB
-  - Firebase Hosting
-  - Heroku API hosting
-# Note-Keeper-Client
+
+## GitHub Links:
+https://github.com/JawadJisan/Note-Keeper-Client
+
+https://github.com/JawadJisan/Note-Keeper-Server
+
+
+### Features :-
+
+
+• Add a note with a title, tagline and body.
+
+• Editable Pervious Note
+
+• Pagination Implemented
+
+• CRUD Operation Used
+
+
+
+
+### Technology :-
+
+• Frontend : CSS, tailwind, JavaScript, React JS. 
+
+• Backend : NodeJS, Express, Mongo DB.
+
+• Deploy Tools : Netlify , Heroku, Github.
+
+<!--  -->
+![image](https://i.ibb.co/CQz9V4k/screencapture-note-keep-er-netlify-app-2022-08-14-20-15-51.png)
+![image](https://i.ibb.co/3sVFxw3/screencapture-note-keep-er-netlify-app-2022-08-14-20-16-05.png)
+![image](https://i.ibb.co/SPsVqzt/screencapture-note-keep-er-netlify-app-2022-08-14-20-16-26.png)
+
+

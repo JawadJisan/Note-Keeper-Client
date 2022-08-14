@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:wght@300;500;700&display=swap');
+
+.dark {
+    background-color: #0e1117 !important;
+    /* font-family: 'Cabin', sans-serif; */
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0 !important;
+}
+
+.add-note-title{
+    @apply  outline-none  dark:bg-[#112233] bg-[#dbdbdb] border-none text-[18px] input font-normal  w-full input-bordered input-info w-full mt-[20px]
+}
+
+.add-note-category{
+  @apply  outline-none  dark:bg-[#112233] bg-[#dbdbdb] border-none  input font-normal  w-full input-bordered input-info w-full mt-[20px]   
+}
+
+.add-note-textarea{
+    @apply textarea text-[16px] textarea-info outline-none border-none w-full bg-[#dbdbdb] block mt-3 dark:bg-[#112233] dark:text-white h-[180px]
+}
+
+
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
