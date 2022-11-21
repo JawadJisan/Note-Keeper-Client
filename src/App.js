@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Home from "./pages/Home";
 import './App.css';
 
+/* new to-do */
 function App() {
   return (
     <div className="mx-auto w-[95%] rounded-md max-w-[1200px]">
