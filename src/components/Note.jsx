@@ -13,7 +13,7 @@ function Note({ note, refetch }) {
     const [viewNoteData, setViewNoteData] = useState(null);
     const [editNote, setEditNote] = useState(null);
     const handleDelete = async () => {
-        const response = await axios.delete(`https://whispering-ridge-65020.herokuapp.com/note/${note._id}`);
+        const response = await axios.delete(`https://todolistserver-3gc5.onrender.com/note/${note._id}`);
         if (response.status === 200) {
             refetch();
             toast.success("Successfully Deleted");
@@ -23,7 +23,7 @@ function Note({ note, refetch }) {
     }
 
     const handleAddtoPin = async () => {
-        const response = await axios.put(`https://whispering-ridge-65020.herokuapp.com/note/${note._id}`, { pinned: true });
+        const response = await axios.put(`https://todolistserver-3gc5.onrender.com/note/${note._id}`, { pinned: true });
         if (response.status === 200) {
             toast.success(`${note.title.slice(0, 60)}... is added to pin`);
             refetch();
@@ -34,7 +34,7 @@ function Note({ note, refetch }) {
     }
 
     const handleRemotetoPinned = async () => {
-        const response = await axios.put(`https://whispering-ridge-65020.herokuapp.com/note/${note._id}`, { pinned: false });
+        const response = await axios.put(`https://todolistserver-3gc5.onrender.com/note/${note._id}`, { pinned: false });
         if (response.status === 200) {
             toast.success("Item is removed from pinned");
             refetch();

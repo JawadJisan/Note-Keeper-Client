@@ -6,7 +6,7 @@ import { toast } from 'react-toastify'
 function ViewNote({ viewNoteData, setViewNoteData, refetch }) {
 
     const handleMarkComplete = async () => {
-        const response = await axios.put(`https://whispering-ridge-65020.herokuapp.com/note/${viewNoteData._id}`, {
+        const response = await axios.put(`https://todolistserver-3gc5.onrender.com/note/${viewNoteData._id}`, {
             completed: true
         });
         if (response.status === 200) {

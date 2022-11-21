@@ -14,13 +14,13 @@ function Home() {
   const [size, setSize] = useState(6);
 
   const { isLoading, data, error, refetch } = useQuery(["allNotes", page], async () => {
-    const { data } = await axios.get(`https://whispering-ridge-65020.herokuapp.com/note?size=${size}&page=${page}`);
+    const { data } = await axios.get(`https://todolistserver-3gc5.onrender.com/note?size=${size}&page=${page}`);
     return data;
   });
 
   useEffect(() => {
     const getPage = async () => {
-      const { data: count } = await axios.get(`https://whispering-ridge-65020.herokuapp.com/note/count`);
+      const { data: count } = await axios.get(`https://todolistserver-3gc5.onrender.com/note/count`);
       setTotalItems(count.count);
     }
 

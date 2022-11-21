@@ -13,7 +13,7 @@ function EditNote({ editNote, setEditNote, refetch }) {
             details: e.target.details.value
         }
 
-        const response = await axios.put(`https://whispering-ridge-65020.herokuapp.com/note/${editNote._id}`, editedNote);
+        const response = await axios.put(`https://todolistserver-3gc5.onrender.com/note/${editNote._id}`, editedNote);
         console.log(response);
         if (response.status === 200) {
             toast.success("Successfully Note Updated");

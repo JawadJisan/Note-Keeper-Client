@@ -13,7 +13,7 @@ function AddNote({ setNote, refetch }) {
             date: new Date().toLocaleDateString(),
             time: new Date().toLocaleTimeString()
         }
-        const response = await axios.post('https://whispering-ridge-65020.herokuapp.com/note', newNote);
+        const response = await axios.post('https://todolistserver-3gc5.onrender.com/note', newNote);
         console.log(response);
         if (response.status === 200) {
             toast.success("Wow so easy!");

@@ -8,8 +8,8 @@ https://note-keep-er.netlify.app/
 
 
 ### Server Side Link:
-https://whispering-ridge-65020.herokuapp.com/
-https://whispering-ridge-65020.herokuapp.com/note
+https://todolistserver-3gc5.onrender.com/
+https://todolistserver-3gc5.onrender.com/note
 
 
 ## GitHub Links:
